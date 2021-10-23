@@ -1,0 +1,31 @@
+{
+  "name": "guardian-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon --es-module-specifier-resolution=node ./index.js",
+    "start": "node --es-module-specifier-resolution=node ./index.js"
+  },
+  "type": "module",
+  "author": "Kristofer Wang",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mssql": "^6.3.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
